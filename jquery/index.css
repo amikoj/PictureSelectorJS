@@ -1,0 +1,28 @@
+
+html,body,div {
+    padding: 0;
+    margin: 0;
+}
+.titleContainer {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 8px 0;
+}
+
+
+@media screen and (max-width:750px) {
+    
+    .titleContainer {
+        background-color: #efefef;
+        margin-top: 0;
+    }
+
+    .titleContainer::before {
+        content: "<";
+        position:absolute;
+        left: 20px;
+        color: #888;
+    }
+
+}
